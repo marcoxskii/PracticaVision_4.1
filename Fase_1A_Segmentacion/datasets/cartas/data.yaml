@@ -1,0 +1,7 @@
+path: /home/mkt/data/projects/ProyectoYOLO/Fase_1A_Segmentacion/datasets/cartas
+train: train/images
+val: valid/images
+test: test/images
+
+names: 
+  0: Playing Card

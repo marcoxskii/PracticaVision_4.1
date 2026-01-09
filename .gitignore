@@ -1,0 +1,39 @@
+# --- 1. Ignorar Entornos Virtuales (Lo más pesado e innecesario) ---
+venv/
+venv-sr/
+env/
+.env/
+
+# --- 2. Ignorar Multimedia Pesada (Videos e Imagenes de prueba) ---
+# Ignoramos todos los videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Ignoramos imágenes pesadas (input/output de pruebas)
+*.jpg
+*.png
+*.jpeg
+*.dcm
+
+# (Opcional) Si quieres subir SOLO las capturas del informe, descomenta abajo:
+# !comparativa_sr_yolo.png
+# !bench_speedup.png
+
+# --- 3. Ignorar Compilados y Basura de Python/C++ ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+build/
+dist/
+*.o
+*.out
+cmake_install.cmake
+CMakeCache.txt
+Makefile
+
+# --- 4. Archivos de Sistema e IDE ---
+.DS_Store
+.vscode/
+.idea/
